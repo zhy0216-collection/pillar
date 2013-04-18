@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 
 import logging
 import datetime as dt
@@ -8,7 +8,7 @@ LESS_DEBUG = False
 JS_DEBUG = False
 PRODUCTION = False
 
-SITE = ""#your site here
+SITENAME = "projectname"#your site here
 SITE_DOMAIN = ""#your site here
 PORT = "5000"
 SECRET_KEY = "secret_keyplzchangeit"
