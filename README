@@ -3,3 +3,7 @@ You have to change projectname to whatever you like;
 in app.py===>line 11
 conf.py==>
 frontend.py
+
+
+use find projectname == > the target one
+
