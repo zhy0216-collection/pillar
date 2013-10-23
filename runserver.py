@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from projectname.app import app
+from web.app import app
 
 
 if(__name__ == "__main__"):

@@ -8,7 +8,7 @@ import config.conf as conf
 
 app = Flask(__name__)
 
-app.config.from_object("projectname.config.conf")
+app.config.from_object("web.config.conf")
 
 assets = fassets.Environment(app)
 assets.versions = 'hash:32'

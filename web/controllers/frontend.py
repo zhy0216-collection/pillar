@@ -2,7 +2,7 @@
 
 from flask import render_template
 
-from projectname.app import app
+from web.app import app
 
 @app.route('/')
 def main():
