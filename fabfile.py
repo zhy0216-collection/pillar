@@ -27,7 +27,7 @@ def test():
     import os
     import sys
     lastone = os.path.split(CURRENT_PATH)[0]
-    with lcd("unittest"):
+    with lcd("unittests"):
         local("nosetests --nocapture --with-path=%s --with-path=%s"%(lastone,CURRENT_PATH))
     
     
