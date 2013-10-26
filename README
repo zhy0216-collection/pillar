@@ -1,9 +1,7 @@
-You have to change projectname to whatever you like;
+### This a a bootstrap for flask webapp.
 
-in app.py===>line 11
-conf.py==>
-frontend.py
+I also put `boostrap3` here for convience.
 
+Everything you need for setup a flask project!
 
-use find projectname == > the target one
-
+Remember to install pip_requirements and setup virtualenv!!
