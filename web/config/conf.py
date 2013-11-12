@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 import logging
-import datetime as dt
 
 DEBUG_MODE          = True
 LESS_DEBUG          = True
@@ -17,8 +16,10 @@ MONGODB_DB          = ""#project db
 MONGODB_DB_UNITTEST = ""#project unittest
 MONGODB_HOST        = "localhost"
 MONGODB_PORT        = 27017
-MONGODB_USER        = ''#your mongodb username; keep it empty if no auth required
-MONGODB_PASSWD      = ''#your mongodb pwd; keep it empty if no auth required
+#your mongodb username; keep it empty if no auth required
+MONGODB_USER        = ''
+#your mongodb pwd; keep it empty if no auth required
+MONGODB_PASSWD      = ''
 
 SENTRY_DSN          = ''#somethinf about sentry
 
