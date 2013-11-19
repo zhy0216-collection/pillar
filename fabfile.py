@@ -35,6 +35,15 @@ def coverage():
     """Run nose test with coverage"""
     local("nosetests --with-coverage --cover-package=botan")
 
-    
-    
+def make_js_debug():
+    """make debug js files"""
+    target_path = os.path.join(CURRENT_PATH,"web","static")
+    with lcd(target_path):
+        local("browserify main.js -d true > main_bundle.js")
+
+def make_js():
+    """make js files"""
+    target_path = os.path.join(CURRENT_PATH,"web","static")
+    with lcd(target_path):
+        local("browserify main.js > main_bundle.js")
     
