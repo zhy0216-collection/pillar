@@ -4,7 +4,7 @@ import os
 
 from mongoengine import MongoEngine
 
-from util.config import conf
+from conf.config import conf
 
 def get_db(database=None):
     if not database:
