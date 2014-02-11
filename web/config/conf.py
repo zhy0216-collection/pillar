@@ -12,8 +12,8 @@ SITE_DOMAIN         = ""#your site here
 PORT                = "5000"
 SECRET_KEY          = "secret_keyplzchangeit"
 
-MONGODB_DB          = ""#project db
-MONGODB_DB_UNITTEST = ""#project unittest
+MONGODB_DB          = "project_db"#project db
+MONGODB_DB_UNITTEST = "project_unittest_db"#project unittest
 MONGODB_HOST        = "localhost"
 MONGODB_PORT        = 27017
 #your mongodb username; keep it empty if no auth required

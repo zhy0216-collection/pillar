@@ -27,3 +27,7 @@ def something_before_request():
     pass
 
 import controllers
+import web.admin
+
+
+# app.jinja_env.filters['markdown']  = markdown_text
