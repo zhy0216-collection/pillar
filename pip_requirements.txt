@@ -1,6 +1,7 @@
 Fabric==1.8.0
 Flask==0.10.1
 Flask-Assets==0.8
+Flask-Script==0.6.6
 Flask-WTF==0.9.4
 Jinja2==2.7.1
 MarkupSafe==0.18
